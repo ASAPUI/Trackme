@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "FlowTrack",
+    "slug": "flowtrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": { "resizeMode": "contain", "backgroundColor": "#0e0e11" },
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.flowtrack.app" },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#0e0e11" },
+      "package": "com.flowtrack.app"
+    },
+    "plugins": [
+      ["expo-notifications", { "icon": "./assets/notification-icon.png", "color": "#7c6aff" }]
+    ]
+  }
+}
